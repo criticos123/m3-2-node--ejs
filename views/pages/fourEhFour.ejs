@@ -8,8 +8,11 @@
       <div class="box answer">
         <h3>Answer</h3>
         <!-- render answer here -->
-        <p>No answer required here...</p>
-      </div>
+        <p>links here...</p>
+        <% for(let i=1;i<=10;i++) {%>
+            <a href=<%= `question${i}` %>><%= "Q"+(i) %></a>
+         <% } %> 
+     
     </div>
   </div>
 </body>
